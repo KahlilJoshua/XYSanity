@@ -1,4 +1,5 @@
 import artistName from "./artistName"
 import tattooPiece from "./tattooPiece"
 import siteSettings from './siteSettings'
-export const schemaTypes = [artistName, tattooPiece, siteSettings]
+import siteImages from "./siteImages"
+export const schemaTypes = [siteSettings, siteImages]
